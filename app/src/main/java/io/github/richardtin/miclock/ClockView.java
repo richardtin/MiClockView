@@ -1,4 +1,4 @@
-package org.avatarqing.miclock;
+package io.github.richardtin.miclock;
 
 import android.animation.PropertyValuesHolder;
 import android.animation.ValueAnimator;
@@ -388,7 +388,7 @@ public class ClockView extends View {
 	}
 
 	private void initBound() {
-		radius = getWidth() * 3 / 7;
+		radius = Math.min(getWidth(), getHeight()) * 3 / 7;
 		radiusScaleRing = radius * 4 / 3;
 
 		centerX = getWidth() / 2;
