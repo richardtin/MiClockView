@@ -1,4 +1,5 @@
 # MiClockView
+[![Build Status](https://travis-ci.org/richardtin/MiClockView.svg?branch=master)](https://travis-ci.org/richardtin/MiClockView)
 
 A duplication of the clock on MIUI v6
 
